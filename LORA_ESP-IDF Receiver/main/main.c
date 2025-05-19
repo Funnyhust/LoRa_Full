@@ -19,7 +19,7 @@ void app_main(void)
     ESP_LOGD(TAG, "LoRa initialized successfully");
 
     lora_set_frequency(433000000);
-    lora_set_spreading_factor(12);
+    lora_set_spreading_factor(7);
     lora_set_bandwidth(125E3);
     lora_set_coding_rate(8);
     lora_enable_crc();
